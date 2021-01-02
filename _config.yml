@@ -29,11 +29,30 @@ github_username:  senramesh
 
 # Build settings
 theme: minima
+
+##minima 3.0 parameters
+minima:
+  skin: dark
+  social_links:
+    twitter: senramesh
+    github: senramesh
+    linkedin: senramesh
+
+author:
+  name: Ramesh C
+  email: "senramesh@gmail.com"
+
+#plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+date_format: "%B %-d, %Y"
+
+# Output options
 permalink: /:title/
+timezone: Asia/Dubai
+
 
 
 # Exclude from processing.
