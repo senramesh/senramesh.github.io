@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: RC Brain Dumps
+title: RC Experiences
 email: senramesh@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  RC's experiences, discoveries in fields like InfoSec, Electronics, Radio
+  Blog on Information Security, ELectronics, Microcontrollers, Radio Communication & Control.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: senramesh
@@ -29,31 +29,14 @@ github_username:  senramesh
 
 # Build settings
 theme: minima
-
-##minima 3.0 parameters
-minima:
-  skin: dark
-  social_links:
-    twitter: senramesh
-    github: senramesh
-    linkedin: senramesh
-
-author:
-  name: Ramesh C
-  email: "senramesh@gmail.com"
-
-#plugins
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
 
-date_format: "%B %-d, %Y"
+minima:
+  skin: dark
+  date_format: "%b %-d, %Y"
 
-# Output options
 permalink: /:title/
-timezone: Asia/Dubai
-
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.
